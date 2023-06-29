@@ -36,19 +36,20 @@ a img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
-  gap: 140px;
-  position: absolute;
-  left: calc(50% - 1150px / 2 + 0.09px);
-  top: 12px;
+  padding: 1rem 2rem;
+  gap: 10rem;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
 }
 
 .logo {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
-  gap: 8px;
+  padding: 1rem;
+  gap: 1rem;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -93,50 +94,19 @@ a img {
 }
 
 .links {
-  height: 24px;
-  left: 295px;
-  top: 10px;
-  border-radius: 0px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
+  gap: 5rem;
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
   font-family: Gilroy-Medium;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
+  font-size: 1.25em;
 }
 
 span .active {
   color: #0065fe;
-}
-
-.userAction {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  height: 44px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-
-.logIn {
-  font-family: "Gilroy-Medium";
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 19px;
-  color: #0065fe;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .uaButton {
